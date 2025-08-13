@@ -1,0 +1,59 @@
+// {
+//     "tasks": [
+//         {
+//             "type": "cppbuild",
+//             "label": "C/C++: gcc.exe 生成活动文件",
+//             "command": "C:\\Cpp\\MinGW\\mingw64\\bin\\gcc.exe",
+//             "args": [
+//                 "-fdiagnostics-color=always",
+//                 "-g",
+//                 "${file}",
+//                 "-o",
+//                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
+//             ],
+//             "options": {
+//                 "cwd": "${fileDirname}"
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "detail": "调试器生成的任务。"
+//         }
+//     ],
+//     "version": "2.0.0"
+// }
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 生成活动文件 aesni_version",
+            "command": "C:\\Cpp\\MinGW\\mingw64\\bin\\gcc.exe",
+             "args": [
+                "-march=native",  // 自动检测 CPU 支持的指令集
+                "-maes",           // 启用 AES-NI
+                "-msse4.2",        // 启用 SSE4.2（AES-NI 依赖）
+                "-O2",             // 优化级别
+                "-g",              // 调试信息
+                "${file}",         // 当前文件
+                "-o",              // 输出文件名
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
