@@ -113,4 +113,4 @@ KDF用于从共享密钥生成加密密钥，其优化关键在**减少类型转
 
 ## 实现结果
 
-![image-20250814041109667](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250814041109667.png)
+![image4.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image4.png?raw=true)

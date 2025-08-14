@@ -35,6 +35,6 @@ https://github.com/lishuaijuly/Watermark
 
 ### **测试结果**
 
-![image-20250814154846218](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250814154846218.png)
+![image7.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image7.png?raw=true)
 
-![image-20250814154831866](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250814154831866.png)
+![image6.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image6.png?raw=true)

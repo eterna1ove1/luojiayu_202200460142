@@ -86,10 +86,10 @@ $P1(X|Y) = (X⊕(X≪15)⊕(X≪23)) | (Y⊕(Y≪15)⊕(Y≪23))$，对$TT1/TT2$
 
 sm3
 
-![image-20250813210322996](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250813210322996.png)
+![image2.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image2.png?raw=true)
 
 sm3指令级多线程
 
-![image-20250813212446568](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250813212446568.png)
+![image3.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image3.png?raw=true)
 
 上面的结果符合标准加密的结果

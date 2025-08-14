@@ -123,6 +123,4 @@ template Poseidon2() {
 
 这样实现的 Poseidon2 电路既高效又可验证，最后运行结果验证如下，输入在input文件架下的.json
 
-
-
-![image-20250813191039400](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250813191039400.png)
+![image1.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image1.png?raw=true)
