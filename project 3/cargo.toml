@@ -1,0 +1,17 @@
+[package]
+name = "project3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+neptune = { version = "13.0.0", features = ["bls"] }
+blstrs = "0.7.0"
+generic-array = "1.2.0"
+typenum = "1.16.0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+[[bin]]
+name = "poseidon_test"
+path = "tests/poseidon2_test.rs"
+test = false  

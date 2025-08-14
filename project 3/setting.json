@@ -1,0 +1,5 @@
+{
+  "circom.commands": {
+    "compile": "circom ${file} --r1cs --wasm --sym -o ${fileDirname}/../build"
+  }
+}

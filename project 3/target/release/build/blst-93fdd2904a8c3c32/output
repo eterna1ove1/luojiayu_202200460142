@@ -1,0 +1,145 @@
+cargo:rustc-cfg=feature="std"
+cargo:rerun-if-env-changed=BLST_TEST_NO_STD
+Using blst source directory C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst
+cargo:rerun-if-changed=C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\src
+cargo:rerun-if-changed=C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build
+OPT_LEVEL = Some(3)
+OUT_DIR = Some(C:\Users\LuoJY\Desktop\project 3\target\release\build\blst-93fdd2904a8c3c32\out)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\Users\LuoJY\Desktop\project 3\target\release\deps;C:\Users\LuoJY\Desktop\project 3\target\release;C:\Users\LuoJY\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;D:\anaconda3;D:\anaconda3\Library\mingw-w64\bin;D:\anaconda3\Library\usr\bin;D:\anaconda3\Library\bin;D:\anaconda3\Scripts;D:\anaconda3\bin;D:\anaconda3\condabin;C:\Python313\Scripts;C:\Python313;D:\cuda\bin;D:\cuda\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;C:\Windows\system32;D:\VMware\7\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Cpp\MinGW\mingw64\bin;C:\Users\LuoJY\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Java\jdk-17\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.2;D:\anaconda3;D:\anaconda3\Scripts;D:\anaconda3\Library\bin;D:\anaconda3\Library\mingw-w64\bin;D:\anaconda3\Library\usr\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\ProgramData\chocolatey\bin;D:\Program Files\nodejs;D:\Program Files\nodejs\node_modules\npm\bin;C:\Users\LuoJY\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LuoJY\AppData\Local\Programs\Python\Python311;C:\Users\LuoJY\.cargo\bin;C:\Users\LuoJY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LuoJY\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\pycharm\PyCharm 2023.2.1\bin;.;C:\pycharm\PyCharm Community Edition 2023.2.1\bin;.;D:\nmap;D:\Opencv\opencv\build\x64\vc16\bin;C:\Users\LuoJY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\羽\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;D:\proverif\Graphviz\bin;D:\proverif\GTK\bin;C:\Users\LuoJY\AppData\Roaming\npm;D:\Program Files\nodejs;D:\Program Files\nodejs\node_modules\npm\bin;.;c:\Users\LuoJY\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\LuoJY\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+Enabling ADX because it was detected on the host
+OUT_DIR = Some(C:\Users\LuoJY\Desktop\project 3\target\release\build\blst-93fdd2904a8c3c32\out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+TARGET = Some(x86_64-pc-windows-msvc)
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+OUT_DIR = Some(C:\Users\LuoJY\Desktop\project 3\target\release\build\blst-93fdd2904a8c3c32\out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+TARGET = Some(x86_64-pc-windows-msvc)
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+OUT_DIR = Some(C:\Users\LuoJY\Desktop\project 3\target\release\build\blst-93fdd2904a8c3c32\out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+TARGET = Some(x86_64-pc-windows-msvc)
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+OUT_DIR = Some(C:\Users\LuoJY\Desktop\project 3\target\release\build\blst-93fdd2904a8c3c32\out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+TARGET = Some(x86_64-pc-windows-msvc)
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+server.c
+C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\src\vect.h(316): warning C4210: nonstandard extension used: function given file scope
+C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\src\vect.h(337): warning C4210: nonstandard extension used: function given file scope
+C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\src\bulk_addition.c(1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\add_mod_256-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\add_mod_384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\add_mod_384x384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\ct_inverse_mod_256-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\ct_is_square_mod_384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\ctq_inverse_mod_384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\ctx_inverse_mod_384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\div3w-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\mulq_mont_256-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\mulq_mont_384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\mulx_mont_256-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\mulx_mont_384-x86_64.asm
+ Assembling: C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\build\win64\sha256-x86_64.asm
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\atlmfc\lib\x64
+cargo:rustc-link-lib=static=blst
+cargo:rustc-link-search=native=C:\Users\LuoJY\Desktop\project 3\target\release\build\blst-93fdd2904a8c3c32\out
+cargo:BINDINGS=C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\bindings
+cargo:C_SRC=C:\Users\LuoJY\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\blst-0.3.15\blst\src
