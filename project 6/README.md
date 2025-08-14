@@ -24,10 +24,10 @@
 设  G  是一个乘法循环群， p是一个大素数， g 是 G 的生成元。**DDH 假设** 认为，给定 $ (g, g^a, g^b, g^c) $，无法高效区分 $ g^c $和 $g^{ab} $，除非知道 $ a $ 或 $ b $（即计算离散对数）。
 
 在协议中：
-- **P1** 计算 $ H(v)^{k_1}$ ($ g^{h(v) \cdot k_1} $) 。
-- **P2** 计算 $H(v)^{k_1 k_2} $ ($ g^{h(v) \cdot k_1 k_2} $)。
-- **P2** 还计算 $H(w)^{k_2} $ ($ g^{h(w) \cdot k_2} $) 。
-- **P1** 最终计算 $ H(w)^{k_1 k_2} $ ($ g^{h(w) \cdot k_1 k_2} $)。
+- **P1** 计算 $ H(v)^{k_1}$  ($ g^{h(v) \cdot k_1} $)  。
+- **P2** 计算 $ H(v)^{k_1 k_2} $ ($ g^{h(v) \cdot k_1 k_2} $) 。
+- **P2** 还计算 $ H(w)^{k_2} $ ($ g^{h(w) \cdot k_2} $)  。
+- **P1** 最终计算 $ H(w)^{k_1 k_2} $ ($ g^{h(w) \cdot k_1 k_2} $) 。
 
 **只有当 $v = w $时，$ H(v)^{k_1 k_2} = H(w)^{k_1 k_2} $**，否则由于 DDH 假设，无法推断任何信息。
 
@@ -90,4 +90,4 @@ $$
 
 ### 结果实现
 
-![image-20250814044415973](C:\Users\LuoJY\AppData\Roaming\Typora\typora-user-images\image-20250814044415973.png)
+![image8.png](https://github.com/eterna1ove1/luojiayu_202200460142/blob/main/images/image8.png?raw=true)
