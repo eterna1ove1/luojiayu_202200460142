@@ -26,9 +26,9 @@ Poseidon2 的线性层使用的是 **MDS（Maximum Distance Separable）矩阵**
 一个 \($ t \times t $\) 的 MDS 矩阵 \( $M$\) 满足：
 - 任意子方阵都是可逆的
 - 满足 **分支数（Branch Number）** 最大化的性质：
-  $$
-  \mathcal{B}(M) = \min_{x \neq 0} (wt(x) + wt(M \cdot x)) = t + 1
-  $$
+$$
+{B}(M) = \min_{x \neq 0} (wt(x) + wt(M \cdot x)) = t + 1
+$$
   其中 \( wt \) 表示非零元素的个数。
 
 ---
@@ -47,9 +47,9 @@ var MDS = [
 **MDS 矩阵的具有完全扩散性**：单个输入比特的变化会影响所有输出比特。若输入为 $( [x_0, x_1] )$，则输出为：
 $$
 y_0 = m_{00}x_0 + m_{01}x_1 \\
-     y_1 = m_{10}x_0 + m_{11}x_1
+y_1 = m_{10}x_0 + m_{11}x_1
 $$
-即使仅 $ x_0  $变化，$ y_0 $ 和 $y_1  $都会变化。因此具有**密码学安全性**：阻止攻击者通过线性关系破解算法。
+即使仅 $ x_0 $变化，$ y_0 $ 和 $y_1  $都会变化。因此具有**密码学安全性**：阻止攻击者通过线性关系破解算法。
 
 在 `FullRound` 和 `PartialRound` 模板中，矩阵乘法显式实现为：
 ```circom
@@ -57,9 +57,9 @@ $$
 out[0] <== mds[0][0]*s0 + mds[0][1]*s1;
 out[1] <== mds[1][0]*s0 + mds[1][1]*s1;
 ```
-依据$\mathbf{y} = M \cdot \mathbf{x}$。
+依据$ \mathbf{y} = M \cdot \mathbf{x} $。
 
-对于 \( t=2 \)。矩阵通常形如：
+对于 $ t=2 $。矩阵通常形如：
 $$
 M = \begin{bmatrix}
   \alpha & 1 \\
