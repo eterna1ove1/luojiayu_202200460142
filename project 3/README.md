@@ -27,7 +27,7 @@ Poseidon2 的线性层使用的是 **MDS（Maximum Distance Separable）矩阵**
 - 任意子方阵都是可逆的
 - 满足 **分支数（Branch Number）** 最大化的性质：
 
-$ B(M) = \min_{x \neq 0} (wt(x) + wt(M \cdot x)) = t + 1 $
+$B(M)=\min_{x \neq 0}(wt(x) + wt(M\cdotx))= t+1$
 
 其中 \( wt \) 表示非零元素的个数。
 
@@ -40,7 +40,7 @@ var MDS = [
     ["0x0b0c0d0e0f010203", "0x0405060708090a0b"]  // 第二行
 ];
 ```
-这是一个 $ 2 \times 2$  的 MDS 矩阵，用于 2 元素的状态扩散。
+这是一个 $ 2\times2 $  的 MDS 矩阵，用于 2 元素的状态扩散。
 
 ---
 
